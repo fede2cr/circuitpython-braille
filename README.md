@@ -4,8 +4,12 @@ Braille Keyboard and Monitor made in CircuitPython
 
 ## Braille Keyboard Layout
 
-Backspace, dot3, dot2, dot1           dot4, dot5, dot6, enter
-                             Space
+|Left side			|Center	| Right side             |
+|-------------------------------|-------|------------------------|
+|Backspace, dot3, dot2, dot1    |       | dot4, dot5, dot6, enter|
+|                               | Space |                        |
+| Thumb key1			| Thumb key2|Thumb key3|
+
 
 ## Braille Monitor Specs
 
