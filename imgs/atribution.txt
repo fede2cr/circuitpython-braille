@@ -1,0 +1,1 @@
+Image circuitpython_TouchPads.jpg, [Creative Commons by Kattni Rembor](https://learn.adafruit.com/assets/47216).
