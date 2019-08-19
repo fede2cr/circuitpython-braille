@@ -1,0 +1,43 @@
+dots_to_alphabet = {
+0b1000000: { 'latin': "a", 'braille': '⠁'},
+0b1100000: { 'latin': "b", 'braille': '⠃'},
+0b1001000: { 'latin': "c", 'braille': '⠉'},
+0b1001100: { 'latin': "d", 'braille': '⠙'},
+0b1000100: { 'latin': "e", 'braille': '⠑'},
+0b1101000: { 'latin': "f", 'braille': '⠋'},
+0b1101100: { 'latin': "g", 'braille': '⠛'},
+0b1100100: { 'latin': "h", 'braille': '⠓'},
+0b0101000: { 'latin': "i", 'braille': '⠊'},
+0b0101100: { 'latin': "j", 'braille': '⠚'},
+0b1010000: { 'latin': "k", 'braille': '⠅'},
+0b1110000: { 'latin': "l", 'braille': '⠇'},
+0b1011000: { 'latin': "m", 'braille': '⠍'},
+0b1011100: { 'latin': "n", 'braille': '⠍'},
+0b1010100: { 'latin': "o", 'braille': '⠕'},
+0b1111000: { 'latin': "p", 'braille': '⠕'},
+0b1111100: { 'latin': "q", 'braille': '⠟'},
+0b1110100: { 'latin': "r", 'braille': '⠗'},
+0b0111000: { 'latin': "s", 'braille': '⠗'},
+0b0111100: { 'latin': "t", 'braille': '⠞'},
+0b1010010: { 'latin': "u", 'braille': '⠥'},
+0b1110010: { 'latin': "v", 'braille': '⠧'},
+0b0101110: { 'latin': "w", 'braille': '⠺'},
+0b1011010: { 'latin': "x", 'braille': '⠭'},
+0b1011110: { 'latin': "y", 'braille': '⠽'},
+0b1010110: { 'latin': "z", 'braille': '⠵'},
+# Simples: characters with only one block
+0b0010000: { 'latin': "'", 'braille': '⠄'},
+0b0110000: { 'latin': ";", 'braille': '⠆'},
+0b0100100: { 'latin': ":", 'braille': '⠒'},
+0b0100000: { 'latin': ",", 'braille': '⠂'},
+0b0110100: { 'latin': "!", 'braille': '⠖'},
+0b0010010: { 'latin': "-", 'braille': '⠤'},
+0b0100110: { 'label': ".", 'braille': '⠲'},
+0b0110010: { 'label': "?", 'braille': '⠦'},
+
+
+# Special and indicators: characters that are defined by two or more blocks
+0b0000010: { 'latin': 'capital indicator', 'braille': '⠠'}, # only one: capital letter indicator, times 2: capital word, times 3: capital passage
+0b0011110: { 'latin': 'number', 'braille': '⠼'},
+0b0000001: { 'latin': "backspace", 'braille': ''},
+}
