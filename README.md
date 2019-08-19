@@ -40,6 +40,4 @@ Now, how about trying to write your name using the table as reference?
 
 ## TODO
 
-- Debounce.
 - Add support for "indicators", used in numbers, uppercase and others.
-- After indicators, add more characters.
