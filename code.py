@@ -20,7 +20,8 @@ def readDots():
             returnDots = dots
             time.sleep(0.01)
         dots = dotsToBinary()
-        if dots == returnDots:
+        if (dots != 0 ) and (dots == returnDots) and (dots in alphabet.dots_to_alphabet.keys() ):
+            cpx.play_tone(440, 0.1)
             while dotsToBinary() != 0:
                 time.sleep(0.01)
             return dots
@@ -35,7 +36,6 @@ def keyboardLoop():
                 print(alphabet.dots_to_alphabet[dots]['braille'])
             else:
                 keyboard_layout.write(alphabet.dots_to_alphabet[dots]['latin'])
-        time.sleep(0.01)
 
 
 keyboardLoop()
