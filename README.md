@@ -14,6 +14,8 @@ Braille Keyboard made in CircuitPython
 | Dot 5       | A5                |
 | Dot 6       | A6                |
 | Backspace   | A7                |
+| Space       | Button A          |
+| Enter       | Button B          |
 | Keyboard active| CPX Switch     |
 
 ## Using via serial console
