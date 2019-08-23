@@ -1,6 +1,9 @@
 """
 Dots 1-6, backspace, space and enter
 """
+from adafruit_hid.keycode import Keycode
+
+
 dots_to_alphabet = {
     # a-z
     0b100000000: { 'latin': "a", 'braille': '⠁'},
@@ -43,5 +46,6 @@ dots_to_alphabet = {
     # Special and indicators: characters that are defined by two or more blocks
     0b000001000: { 'latin': 'capital indicator', 'braille': '⠠'}, # only one: capital letter indicator, times 2: capital word, times 3: capital passage
     0b001111000: { 'latin': 'number', 'braille': '⠼'},
-    0b000000100: { 'latin': "backspace", 'braille': ''},
+    0b000000100: { 'latin': "backspace", 'braille': '', 'keycode': Keycode.BACKSPACE},
+# 0x2A
 }
