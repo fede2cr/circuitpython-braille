@@ -30,7 +30,7 @@ To practice, get a text editor with a new document, and turn on keyboard emulati
 
 ## Mechanical keyboard version
 
-For better performance, I upgraded to clicky switch like the ones use on mechanical keyboards.
+For better performance, I upgraded to clicky switches like the ones used on mechanical keyboards.
 
 [![Braille keyboard with CircuitPython](http://img.youtube.com/vi/514VB9OsrfE/0.jpg)](http://www.youtube.com/watch?v=514VB9OsrfE)
 
