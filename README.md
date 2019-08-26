@@ -1,5 +1,5 @@
 # circuitpython-braille
-Braille Keyboard made in CircuitPython
+Braille Keyboard made in [CircuitPython](https://circuitpython.org/)
 
 ## Braille Keyboard Layout
 
@@ -27,6 +27,12 @@ Now, get a serial console to read the output of the program. Please have in mind
 ## Using via keyboard emulation
 
 To practice, get a text editor with a new document, and turn on keyboard emulation by making sure that the switch on the CircuitPlayground Express is set to On.
+
+## Mechanical keyboard version
+
+For better performance, I upgraded to clicky switch like the ones use on mechanical keyboards.
+
+[![Braille keyboard with CircuitPython](http://img.youtube.com/vi/514VB9OsrfE/0.jpg)](http://www.youtube.com/watch?v=514VB9OsrfE)
 
 ## How to write Braille
 
