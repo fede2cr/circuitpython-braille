@@ -1,9 +1,24 @@
 # circuitpython-braille
 Braille Keyboard made in [CircuitPython](https://circuitpython.org/)
 
-This is a keyboard for writing in Braille. This are used for transcribing books and letters to braille punched paper books for hand reading, and is an important tool for making reading material inclusive.
+I started this project using a CircuitPlayground Express and the touch library in CircuitPython but decided to moved on to mechanical switches for faster performance.
 
-[![Using the braille keyboard](http://img.youtube.com/vi/514VB9OsrfE/0.jpg)](http://www.youtube.com/watch?v=514VB9OsrfE)
+## Braille Keyboard Layout
+
+![Circuit Playground, captouch pins](https://raw.githubusercontent.com/fede2cr/circuitpython-braille/master/media/circuitpython_TouchPads.jpg)
+
+| Braille dot | On the Playground |
+|-------------|-------------------|
+| Dot 1       | A1                |
+| Dot 2       | A2                |
+| Dot 3       | A3                |
+| Dot 4       | A4                |
+| Dot 5       | A5                |
+| Dot 6       | A6                |
+| Backspace   | A7                |
+| Space       | Button A          |
+| Enter       | Button B          |
+| Keyboard active| CPX Switch     |
 
 ## Using via serial console
 
@@ -14,12 +29,6 @@ Now, get a serial console to read the output of the program. Please have in mind
 ## Using via keyboard emulation
 
 To practice, get a text editor with a new document, and turn on keyboard emulation by making sure that the switch on the CircuitPlayground Express is set to On.
-
-## Mechanical keyboard version
-
-For better performance, I upgraded to clicky switches like the ones used on mechanical keyboards.
-
-[![Braille keyboard with CircuitPython](http://img.youtube.com/vi/514VB9OsrfE/0.jpg)](http://www.youtube.com/watch?v=514VB9OsrfE)
 
 ## How to write Braille
 
@@ -32,8 +41,3 @@ For the letter B, press at the same time pad A1 and pad A2.
 Letter C is **not** A1+A2+A3, but is actually just A1 with A4.
 
 Now, how about trying to write your name using the table as reference?
-
-## TODO
-
-- Add support for "indicators", used in numbers, uppercase and others.
-- Custom designed PCB for easy fabrication
