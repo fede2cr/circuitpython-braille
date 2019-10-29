@@ -1,0 +1,5 @@
+Partlist exported from /home/alvaro/git/circuitpython-braille/pcb/braille keyboard.sch at 25/10/19 19:50
+
+Qty Value       Device      Package     Parts                                                                                                                             Description                
+11  CHERRY-MX   CHERRY-MX   CHERRY-MX   KEY_BACKSPACE_L, KEY_BACKSPACE_R, KEY_DOT1, KEY_DOT2, KEY_DOT3, KEY_DOT4, KEY_DOT5, KEY_DOT6, KEY_ENTER, KEY_SPACE_L, KEY_SPACE_R Cherry MX series keyswitch 
+1   FEATHERWING FEATHERWING FEATHERWING MS1                                                                                                                                                          

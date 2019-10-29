@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-26T01:50:38Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "braille keyboard"
+        },
+        "Owner": "Alvaro Alvaro <alvaro@greencore.co.cr>",
+        "Size": {
+            "X": 50.8,
+            "Y": 22.86
+        }
+    }
+}
